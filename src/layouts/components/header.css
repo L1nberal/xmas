@@ -1,0 +1,13 @@
+.appearing {
+  width: 250px !important;
+  height: unset !important;
+}
+
+@keyframes running {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
